@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSWeb Solutions - Professional Web Design & Development</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+    <body>
+    <!-- Navigation -->
+<nav class="navbar">
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="logo">
+                <img src="./tsw new logo.png" alt="TSWeb Solutions Logo" class="logo-img">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#demo" class="nav-link">Demo</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="stars"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="animated-title">Professional Web Solutions</h1>
+                <p class="animated-subtitle">Clean Code. Custom Design. Powerful Results.</p>
+                <p class="hero-description">We specialize in hand-crafted, hard-coded websites built with pure HTML, CSS, JavaScript, and PHP. No templates. No shortcuts. Just pure web excellence.</p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get Started</a>
+                    <a href="#portfolio" class="btn btn-secondary">View Our Work</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-box">
+                    <div class="code-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <div class="code-content">
+                        <p><span class="keyword">&lt;html&gt;</span></p>
+                        <p><span class="indent">&lt;<span class="tag">div</span> <span class="attr">class</span>=<span class="string">"excellence"</span>&gt;</span></p>
+                        <p><span class="indent2">&lt;<span class="tag">h1</span>&gt;</span><span class="string">Your Vision</span><span class="indent2">&lt;/<span class="tag">h1</span>&gt;</span></p>
+                        <p><span class="indent">&lt;/<span class="tag">div</span>&gt;</span></p>
+                        <p><span class="keyword">&lt;/html&gt;</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Everything you need for a powerful web presence</p>
+            
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-pencil-ruler"></i>
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Custom, responsive designs built from scratch with pure HTML & CSS. Every pixel is crafted with precision.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Hard-coded JavaScript and PHP solutions. No frameworks, no bloat. Pure, efficient code.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3>E-Commerce</h3>
+                    <p>Fully functional online stores with secure payment integration and inventory management.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Website Updates</h3>
+                    <p>Keep your site fresh and secure. We handle maintenance, updates, and feature additions.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>CMS Solutions</h3>
+                    <p>Custom Content Management Systems built specifically for your workflow.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Pixel-perfect on all devices. Desktop, tablet, mobile - we've got you covered.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Our Work</h2>
+            <p class="section-subtitle">Real projects. Real results. Real code.</p>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-demo ecommerce-demo"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p class="tech-stack">HTML • CSS • JavaScript • PHP • MySQL</p>
+                        <p>Custom online store with product catalog, shopping cart, and secure checkout. Built with pure code.</p>
+                        <span class="badge">Completed</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-demo corporate-demo"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Corporate Website</h3>
+                        <p class="tech-stack">HTML • CSS • JavaScript • PHP</p>
+                        <p>Professional corporate site with news feed, team showcase, and lead generation forms.</p>
+                        <span class="badge">Completed</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-demo portfolio-demo-item"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Creative Portfolio</h3>
+                        <p class="tech-stack">HTML • CSS • JavaScript • Animations</p>
+                        <p>Artist portfolio with smooth animations, image galleries, and interactive project showcases.</p>
+                        <span class="badge">Completed</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-demo blog-demo"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Blog Platform</h3>
+                        <p class="tech-stack">HTML • CSS • JavaScript • PHP • MySQL</p>
+                        <p>Full-featured blogging platform with custom CMS, user authentication, and comment system.</p>
+                        <span class="badge">Completed</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-demo saas-demo"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>SaaS Application</h3>
+                        <p class="tech-stack">HTML • CSS • JavaScript • PHP • API</p>
+                        <p>Scalable SaaS platform with user dashboard, billing integration, and real-time features.</p>
+                        <span class="badge">Completed</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <div class="portfolio-demo business-demo"></div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Service Business</h3>
+                        <p class="tech-stack">HTML • CSS • JavaScript • PHP</p>
+                        <p>Service-based business website with booking system, service showcase, and customer testimonials.</p>
+                        <span class="badge">Completed</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2 class="section-title">Interactive Capabilities</h2>
+            <p class="section-subtitle">See what we can build for you</p>
+            
+            <div class="demo-grid">
+                <!-- Accordion Demo -->
+                <div class="demo-card">
+                    <h3>Interactive Accordion</h3>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>HTML Mastery</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Semantic HTML5 markup, accessibility best practices, SEO optimization, and clean structure.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>CSS Excellence</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Advanced CSS3, flexbox, grid, animations, transitions, and responsive design patterns.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-header">
+                                <span>JavaScript Power</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Vanilla JavaScript for DOM manipulation, AJAX requests, event handling, and interactive features.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Slider Demo -->
+                <div class="demo-card">
+                    <h3>Image Slider</h3>
+                    <div class="slider">
+                        <div class="slides">
+                            <div class="slide active">
+                                <div class="slide-content gradient-1">
+                                    <p>Modern Design</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slide-content gradient-2">
+                                    <p>Fast Performance</p>
+                                </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slide-content gradient-3">
+                                    <p>User Experience</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="slider-btn prev"><i class="fas fa-chevron-left"></i></button>
+                        <button class="slider-btn next"><i class="fas fa-chevron-right"></i></button>
+                        <div class="slider-dots">
+                            <span class="dot active" data-index="0"></span>
+                            <span class="dot" data-index="1"></span>
+                            <span class="dot" data-index="2"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal Demo -->
+                <div class="demo-card">
+                    <h3>Modal Popup</h3>
+                    <button class="btn btn-secondary modal-trigger">Open Modal</button>
+                    <div class="modal">
+                        <div class="modal-overlay"></div>
+                        <div class="modal-content">
+                            <button class="modal-close"><i class="fas fa-times"></i></button>
+                            <h3>Feature Showcase</h3>
+                            <p>This modal demonstrates how we create interactive popups and overlays for important content, forms, or notifications.</p>
+                            <p>Perfect for:</p>
+                            <ul>
+                                <li>Lead capture forms</li>
+                                <li>Image galleries</li>
+                                <li>Important announcements</li>
+                                <li>Product details</li>
+                            </ul>
+                            <button class="btn btn-primary modal-close">Close</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab System Demo -->
+                <div class="demo-card">
+                    <h3>Tabbed Content</h3>
+                    <div class="tabs">
+                        <div class="tab-buttons">
+                            <button class="tab-btn active" data-tab="tab1">Features</button>
+                            <button class="tab-btn" data-tab="tab2">Benefits</button>
+                            <button class="tab-btn" data-tab="tab3">Pricing</button>
+                        </div>
+                        <div class="tab-contents">
+                            <div class="tab-content active" id="tab1">
+                                <h4>Key Features</h4>
+                                <ul>
+                                    <li>Custom Design</li>
+                                    <li>Fast Loading</li>
+                                    <li>Fully Responsive</li>
+                                    <li>SEO Optimized</li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="tab2">
+                                <h4>Why Choose Us</h4>
+                                <ul>
+                                    <li>No Templates</li>
+                                    <li>Pure Code</li>
+                                    <li>Quick Support</li>
+                                    <li>Ongoing Updates</li>
+                                </ul>
+                            </div>
+                            <div class="tab-content" id="tab3">
+                                <h4>Flexible Plans</h4>
+                                <ul>
+                                    <li>Budget-Friendly</li>
+                                    <li>Premium Options</li>
+                                    <li>Custom Packages</li>
+                                    <li>Maintenance Plans</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Animation Demo -->
+                <div class="demo-card">
+                    <h3>Smooth Animations</h3>
+                    <div class="animation-showcase">
+                        <div class="animated-box box-1"></div>
+                        <div class="animated-box box-2"></div>
+                        <div class="animated-box box-3"></div>
+                    </div>
+                    <p style="text-align: center; color: #666; margin-top: 15px; font-size: 14px;">Smooth, performant CSS animations</p>
+                </div>
+
+                <!-- Form Elements Demo -->
+                <div class="demo-card">
+                    <h3>Form Elements</h3>
+                    <div class="demo-form">
+                        <input type="text" placeholder="Input field" class="form-input">
+                        <select class="form-input">
+                            <option>Select an option</option>
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                        </select>
+                        <textarea class="form-input" placeholder="Textarea"></textarea>
+                        <button class="btn btn-primary" style="width: 100%;">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2 class="section-title">Let's Build Something Great</h2>
+                    <p class="section-subtitle">Ready to bring your vision to life?</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Ready to work with you globally</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p><a href="mailto:info@tsweb.com">info@tsweb.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>072 315 8098</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-icons">
+                        <div class="tech-icon" title="HTML5">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <div class="tech-icon" title="CSS3">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <div class="tech-icon" title="JavaScript">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <div class="tech-icon" title="PHP">
+                            <i class="fab fa-php"></i>
+                        </div>
+                        <div class="tech-icon" title="MySQL">
+                            <i class="fas fa-database"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" method="POST" action="contact.php">
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" required placeholder="John Doe">
+                        <span class="error-message"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        <span class="error-message"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company" placeholder="Your Company">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">What service are you interested in? *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="web-design">Web Design</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="ecommerce">E-Commerce</option>
+                            <option value="website-update">Website Updates</option>
+                            <option value="cms">CMS Solutions</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Project Details *</label>
+                        <textarea id="message" name="message" required placeholder="Tell us about your project..." rows="5"></textarea>
+                        <span class="error-message"></span>
+                    </div>
+
+                    <div class="form-group checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I agree to be contacted about this project</label>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+                    <div class="form-status"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-logo-section">
+                    <img src="./tsw new logo.png" alt="TSWeb Solutions Logo" class="footer-logo">
+                    <p>Professional web design and development with pure, hard-coded solutions.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Design</a></li>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">E-Commerce</a></li>
+                        <li><a href="#services">Website Updates</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TSWeb Solutions. All rights reserved. Built with pure HTML, CSS, JavaScript & PHP.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
